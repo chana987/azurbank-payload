@@ -4,7 +4,7 @@ import Users from './collections/Users';
 import Stocks from './collections/Stocks';
 
 export default buildConfig({
-  serverURL: 'http://localhost:3000',
+  serverURL: 'http://localhost:3001',
   admin: {
     user: Users.slug,
   },
